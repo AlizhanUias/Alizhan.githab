@@ -1,0 +1,70 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "name": "product1",
+      "price": 1,
+      "parentId": 0,
+      "children": null
+    },
+    {
+      "id": 2,
+      "name": "product2",
+      "price": 2,
+      "parentId": 0,
+      "children": null
+    },
+    {
+      "id": 3,
+      "name": "product3",
+      "price": 3,
+      "parentId": 0,
+      "children": null
+    },
+    {
+      "id": 4,
+      "name": "1",
+      "price": "1",
+      "parentId": 1,
+      "children": null
+    },
+    {
+      "id": 5,
+      "name": "11",
+      "price": "11",
+      "parentId": 4,
+      "children": null
+    },
+    {
+      "id": 6,
+      "name": "111",
+      "price": "111",
+      "parentId": 5,
+      "children": null
+    },
+    {
+      "id": 7,
+      "name": "22",
+      "price": "22",
+      "parentId": 2,
+      "children": null
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
